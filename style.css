@@ -1,0 +1,88 @@
+/*========================*/
+/*==== BASIC SETUP====*/
+/*========================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+ul li {
+  list-style-type: none;
+}
+/*========================*/
+/*==== REUSABLE COMPONENTS====*/
+/*========================*/
+.row {
+  max-width: 920px;
+  margin: auto;
+}
+
+.btn {
+  background: #42b718;
+  padding: 15px 16px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left: 93px;
+  border-radius: 50px;
+}
+
+/*========================*/
+/*==== HEADER SECTION====*/
+/*========================*/
+header {
+  background: rgb(255, 123, 0);
+  height: 90vh;
+  position: relative;
+}
+.logo {
+  height: 68px;
+  width: auto;
+  margin-top: 33px;
+  float: left;
+}
+/*========================*/
+/*==== MAIN NAVIGATION====*/
+/*========================*/
+.mainnav {
+  float: right;
+  margin-top: 33px;
+}
+
+.mainnav li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.mainnav li:first-child {
+  margin-left: 0;
+}
+
+.mainnav li a:link,
+.mainnav li a:visited {
+  color: black;
+  text-decoration: none;
+  background-color: rgba(255, 123, 0, 0.507);
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 4px 14px;
+  transition: 0.3s;
+}
+
+.mainnav li:hover a:link,
+.mainnav li:hover a:visited {
+  background-color: rgb(0, 255, 221);
+}
+.active {
+  background-color: rgb(0, 255, 221);
+}
+.hero-text-box {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(20%, -25%);
+}
